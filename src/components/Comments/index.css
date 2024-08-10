@@ -1,0 +1,119 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.form-container {
+  width: 50%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.input-field {
+  padding: 7px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  width: 80%;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+}
+.button {
+  height: 35px;
+  width: 120px;
+  border: none;
+  border-radius: 7px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  outline: none;
+}
+.img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 80%;
+}
+.break {
+  width: 100%;
+  border-color: #cbd2d9;
+  background-color: #cbd2d9;
+  margin: 10px 0;
+}
+.comment-container {
+  padding: 10px 0;
+  width: 100%;
+  margin: 5px 0;
+}
+.comment-text {
+  color: #334155;
+  font-size: 17px;
+  font-weight: bold;
+}
+.count{
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+  padding: 4px 8px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-heaing {
+    text-align: center;
+  }
+  .form-container {
+    width: 100%;
+    order: 3;
+  }
+  .img-container {
+    width: 100%;
+    order: 2;
+  }
+  .image {
+    width: 300px;
+  }
+}
